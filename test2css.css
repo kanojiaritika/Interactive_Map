@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,500;1,400&display=swap');
+body{
+	background-color: #ffffff;
+}
+
+svg path{
+	fill: lightgray;
+	stroke: rgb(0, 0, 0);
+	stroke-width: .25;
+}
+
+svg path:hover{
+	fill: rgb(113, 184, 210);
+	transition: 0.5s;
+	cursor: pointer;
+}
+.hide{
+	background-color: rgba(108, 181, 241, 0.6);
+	border-radius: 5px;
+	text-align: center;
+	position: absolute;
+	margin: 0 auto;
+	font-size: 8px;
+	padding: 0px 5px;
+	border: 1px solid #000000;
+	font-family: 'Josefin Slab', serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-transform: capitalize;
+	text-decoration: none;
+} 
+header{
+	background-color: rgb(18, 138, 181);
+	/* C8AD7E */
+	display: -webkit-box;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between; 
+	align-items: right;
+	padding: 10px 20px;
+	
+}
+header .logo{
+	 font-weight: bolder;
+	 font-size: 45px;
+	 color: #000000;
+	 justify-content: center;
+	 font-family: 'Josefin Slab', serif;
+}
+header .navbar ul{
+	list-style: none;
+}
+header .navbar ul li{
+	position: relative;
+	float: left;
+}
+header .navbar ul li a{
+	font-size: 25px;
+	padding: 20px;
+	color: #ffffff;
+	display: block;
+	font-family: 'Josefin Slab', serif;
+}
+header .navbar ul li a:hover{
+	color: #000000;
+}
+header .navbar ul li ul{
+	position: absolute;
+	left: 0;
+	width: 200px;
+	background-color: rgb(18, 138, 181);
+	display: none;
+}
+header .navbar ul li ul li{
+	width:100%;
+	border-top: 1px ;
+}
+header .navbar ul li ul li ul{
+	left: 200px;
+	top: 0;
+}
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+	display: initial;
+}
+
+p{
+	font-weight: 300;
+	font-size: 10px;
+}
+.h1{
+	text-align: center;
+	font-size: 20px;
+	
+}
+.poonch-txt{
+	top: 25%;
+	left: 15%;
+}
+.mumbai-txt{
+	top: 98%;
+	left: 11.2%;
+}
+.chola-txt{
+	top: 145%;
+	left:27%;
+}
+.mahabali-txt{
+	top: 125%;
+	left: 27%;
+}
+.nilgiri-txt{
+	top: 141%;
+	left: 5%;
+}
+.hampi-txt{
+	top: 128%;
+	left:18%;
+}
+.augustine-txt{
+	top:125.5%;
+	left:6%;
+}
+.elephanta-txt{
+	top: 102%;
+	left: 12%;
+}
+.pratap-txt{
+	top:112%;
+	left:4.5%;
+}
+.shanivar-txt{
+	top:107.5%;
+	left:13.7%;
+}
+.ajanta-txt{
+	top:95%;
+	left:18%;
+}
+.historiccity-txt{
+	top: 79%;
+	left: 11%
+}
+.champaner-txt{
+	top: 92%;
+	left: 1%;
+}
+.dholavira-txt{
+	top: 66%;
+	left: 1%;
+}
+.jaisalmer-txt{
+	top: 48%;
+	left: 3%;
+}
+.chittor-txt{
+	top: 66.5%;
+	left: 5%;
+}
+.ramappa-txt{
+	top:107%;
+	left: 28%;
+}
+.sanchi-txt{
+	top: 80%;
+	left: 22%;
+}
+.khajuraho-txt{
+	top: 70%;
+	left: 27%;
+}
+.redfort-txt{
+	top: 46%;
+	left: 15%;
+}
+.greatnp-txt{
+	top: 35%;
+	left: 21%;
+}
+.nandadevi-txt{
+	top: 47%;
+	left: 27%;
+}
+.mahabodhi-txt{
+	top:62%;
+	left:35%;
+}
+.kaziranga-txt{
+	top: 58%;
+	left: 58%;
+
+}
+.taj-txt{
+	top: 60%;
+	left: 12%;
+}
+.konark-txt{
+	top: 100%;
+	left: 42%;
+} */
+.poonch-txt{
+	top: 31%;
+	left: 8%;
+}
+.amber-txt{
+	top: 55%;
+	left: 18%;
+}
+.citypalace-txt{
+	top: 58%;
+	left: 18%;
+}
+.rantham-txt{
+	top: 62%;
+	left: 20%;
+}
+.hawa-txt{
+	top: 56%;
+	left: 20%;
+}
+.abha-txt{
+	top: 56%;
+	left: 22%;
+}
+.mehra-txt{
+	top: 56%;
+	left: 12%;
+}
+.udai-txt{
+	top: 62%;
+	left: 13.2%;
+}
+.juna-txt{
+	top: 50%;
+	left: 12.8%;
+} 
+.jantar-txt{
+	top: 58%;
+	left: 18%;
+} 
+.laxmivilas-txt{
+	top: 75%;
+	left: 12.5%;
+}
+.dwarka-txt{
+	top: 82%;
+	left: 3%;
+}
+.rani-txt{
+	top: 70%;
+	left: 10.5%;
+}
+.mahabat-txt{
+	top: 85%;
+	left: 7%;
+}
+.jama-txt{
+	top: 77%;
+	left: 11%;
+}
+.jhulta-txt{
+	top: 72%;
+	left: 12.5%;
+}
+.chand-txt{
+	top: 90%;
+	left: 18%;
+}
+.bibi-txt{
+	top: 90%;
+	left: 18%;
+}
+.raigad-txt{
+	top: 100%;
+	left: 15%;
+}
+.newk-txt{
+	top: 105%;
+	left: 15%;
+}
+.deek-txt{
+	top: 90%;
+	left: 25%;
+}
+.rock-txt{
+	top: 80%;
+	left: 22%;
+}
+.manas-txt{
+	top: 57%;
+	left: 53%;
+}
+.khang-txt{
+	top: 55%;
+	left: 47%;
+}
+.sundar-txt{
+	top: 78%;
+	left: 47%;
+}
+.nalanda-txt{
+	top:58%;
+	left:40%;
+}
+.huma-txt{
+	top: 46%;
+	left: 22%;
+}
+.qutub-txt{
+	top: 46%;
+	left: 22%;
+}
+.gateway-txt{
+	top: 98%;
+	left: 11.2%;
+}
+.charminar-txt{
+	top: 95%;
+	left: 25%;
+}
+.golc-txt{
+	top: 94%;
+	left: 15%;
+}
+.som-txt{
+	top: 80%;
+	left: 6%;
+}
+.nag-txt{
+	top: 128%;
+	left: 27%;
+}
+.stambha-txt{
+	top: 85%;
+	left: 12%;
+}
+.se-txt{
+	top: 105%;
+	left: 12%;
+}
+.howrah-txt{
+	top: 75%;
+	left: 47%;
+}
+
+circle{
+	cursor: pointer;
+	fill: #217da7;
+}
+
+
+
+
